@@ -12,4 +12,9 @@ I separated the question list into PG-13 and Rated-R, and the question list came
 - https://psycatgames.com/magazine/party-games/dirty-truth-or-dare/
 
 ## New features idea 
-
+- add an introduction in home page on how to play 
+- improve font size for mobile and PC 
+- improve UI design
+- adult consent (?)
+- add question suggestions 
+	- dynamically add to existing question database?  
