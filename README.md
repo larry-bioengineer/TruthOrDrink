@@ -2,6 +2,8 @@
 
 This is an implementation of a famous drinking game called [Truth or Drink](https://www.playtruthordrink.com/). It will be so much easier for someone to use it on the phone rather than having a deck of card. 
 
+:point_right: http://truthordrinkbylarry.herokuapp.com/
+
 ## Tech stack 
 - Flask for creating the web app 
 - Heroku for hosting the app 
