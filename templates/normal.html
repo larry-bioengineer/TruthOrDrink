@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<title>Normal Version - Truth or Drink</title>
+
+{% endblock %}
+
+{% block body %} 
+<h1 style="text-align: center">Truth or Drink</h1>
+<h2 style="text-align: center"> Kid Version </h2>
+<br>
+<br>
+<div class="content">
+	<p style="text-align: center">{{content}}</p>
+	<form action="/normal" method="post">
+		<p style="text-align: center"><input type="submit"  name="Next" value="Next"/></p>
+
+	</form>
+
+	<form action="/" method="post">
+		<p style="text-align: center"><input type="submit"  name="Home" value="HOME"/></p>
+	</form>
+
+
+</div>
+{% endblock %}
+
+{% block footer %} 
+
+<p>Created by: Larry To</p>
+<p>All Rights Reserved</p>
+
+{% endblock %}

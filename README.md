@@ -2,7 +2,7 @@
 
 This is an implementation of a famous drinking game called [Truth or Drink](https://www.playtruthordrink.com/). It will be so much easier for someone to use it on the phone rather than having a deck of card. 
 
-:point_right: http://truthordrinkbylarry.herokuapp.com/
+Truth or Drink Website :point_right: http://truthordrinkbylarry.herokuapp.com/
 
 ## Tech stack 
 - Flask for creating the web app 
@@ -20,3 +20,4 @@ I separated the question list into PG-13 and Rated-R, and the question list came
 - adult consent (?)
 - add question suggestions 
 	- dynamically add to existing question database?  
+- build an actual app with Glide (separate repository)

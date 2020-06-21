@@ -5,17 +5,21 @@
 {% endblock %}
 
 {% block body %} 
+<h1 style="text-align: center">Truth or Drink</h1>
+<h2 style="text-align: center"> Adult Version </h2>
+<br>
+<br>
 <div class="content">
-<form action="/" method="post">
-	<h1 style="text-align: center">Truth or Drink</h1>
 	<p style="text-align: center">{{content}}</p>
-	<p style="text-align: center"><input type="submit"  name="Home" value="HOME"/></p>
-</form>
+	<form action="/adult" method="post">
+		<p style="text-align: center"><input type="submit"  name="Next" value="Next"/></p>
 
-<form action="/adult" method="post">
-	<p style="text-align: center"><input type="submit"  name="Next" value="Next"/></p>
+	</form>
 
-</form>
+	<form action="/" method="post">	
+		<p style="text-align: center"><input type="submit"  name="Home" value="HOME"/></p>
+	</form>
+
 </div>
 {% endblock %}
 

@@ -24,12 +24,11 @@ def adult():
 		str = 'How would you rate your oral sex skills out of 10?'
 		return render_template("adult.html", content=question)
 
+@app.route("/normal", methods = ["GET", "POST"])
 def normal():
-
 	if request.method == "POST":
 		question = OptainQuestion("normal")
-		str = 'How would you rate your oral sex skills out of 10?'
-		return render_template("adult.html", content=question)
+		return render_template("normal.html", content=question)
 
 
 def OptainQuestion(gameName):
@@ -43,8 +42,9 @@ def OptainQuestion(gameName):
 		return questions["Adult"][questionNo]
 
 	elif gameName == "normal":
-		questionNo = randint(0, len(questions["Normal"]))
-		return question["Normal"][questionNo]
+		numQuestion = len(questions["Normal"]) - 1
+		questionNo = randint(0, numQuestion)
+		return questions["Normal"][questionNo]
 
 if __name__ == "__main__":
 	app.run(debug=True)
